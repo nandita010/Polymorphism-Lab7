@@ -4,12 +4,10 @@ public class Customer extends Person
 {
     private int customerNumber;
     private boolean mailingList;
-
-
     public Customer() {
         super();
-        this.customerNumber =0;
-        this.mailingList=false;
+        this.customerNumber= 0;
+        this.mailingList= false;
     }
 
     public Customer(String name, String address, String phoneNumber, int customerNumber, boolean mailingList) {
@@ -35,8 +33,9 @@ public class Customer extends Person
     }
 
     @Override
+
     public String toString() {
-        return super.toString()+
+        return super.toString()+ //super allows me to call the things like name, address etc so I dont have to call them again
                 " customerNumber=" + customerNumber +
                 ", mailingList=" + mailingList ;
     }
