@@ -10,7 +10,8 @@ public class Main {
 
     static void main() {
 
-        Person person= new Person("John","Dublin, "12345");
+        Person person;
+        person = new Person("John","Dublin", "12345");
         System.out.println(person.toString());
         Customer customer= new Customer("Paul", "Gort", "12345", 12, true);
         System.out.println(customer.toString());
