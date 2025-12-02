@@ -1,6 +1,6 @@
 package ie.atu.week1;
 
-public class Person {
+public class    Person {
     private String name;
     private String address;
     private String phoneNumber;
